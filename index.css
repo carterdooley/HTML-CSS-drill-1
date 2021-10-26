@@ -1,0 +1,33 @@
+nav {
+    background-color:rgb(102, 102, 102);
+    position: fixed;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+}
+
+.columnl{
+    width: 10%;
+    background-color: darkgray;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+.columnr{
+    width: 10%;
+    background-color: darkgray;
+    height: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.columnb {
+    z-index: -1;
+    background-color:rgb(29, 29, 29);
+    position:fixed;
+    bottom: 0;
+    height:10%;
+    width:100%
+}
